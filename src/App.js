@@ -9,6 +9,8 @@ import {
 import Home from './Pages/Home';
 import Users from './Pages/Users';
 import About from './Pages/About';
+import Footer from './Components/Footer'
+
 
 
 
@@ -25,7 +27,7 @@ class App extends React.Component {
             <Route exact path='/about' component={About} />
           </Switch>
         </Router>
-
+        <Footer />
       </>
 
 
